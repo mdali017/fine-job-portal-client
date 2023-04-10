@@ -1,8 +1,9 @@
 import React from 'react';
+import { CurrencyDollarIcon, MapPinIcon } from '@heroicons/react/24/solid'
 
-const FeauredJobCard = ({job}) => {
+const FeauredJobCard = ({ job }) => {
     console.log(job);
-    const {picture, postName, company, location, jobStatus} = job;
+    const { picture, postName, company, location, jobStatus, salary } = job;
     return (
         <div>
             <div className='border p-10'>
@@ -12,6 +13,16 @@ const FeauredJobCard = ({job}) => {
                 <div className='flex gap-7 text-left mt-4'>
                     <h1 className='border px-4 py-1 font-bold text-purple-600'>{jobStatus[0]}</h1>
                     <h1 className='border px-4 py-1 font-bold text-purple-600'>{jobStatus[1]}</h1>
+                </div>
+                <div className='flex gap-14'>
+                    <div className='flex items-center gap-3 mt-4'>
+                        <MapPinIcon className="h-6 w-6 text-gray-500" />
+                        <p className='text-left font-semibold text-gray-600 tracking-wide text-xl'>{location[0]}</p>
+                    </div>
+                    <div className='flex items-center gap-3 mt-4'>
+                        <CurrencyDollarIcon className="h-6 w-6 text-gray-500" />
+                        <p className='text-left font-semibold text-gray-600 tracking-wide text-xl'>{salary}</p>
+                    </div>
                 </div>
             </div>
         </div>
