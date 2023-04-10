@@ -1,7 +1,7 @@
 import React from 'react';
 
 const JobsCategoryCard = ({jobcategorylist}) => {
-    console.log(jobcategorylist)
+    // console.log(jobcategorylist)
     const {name, icon, avaiableJob} = jobcategorylist;
     return (
         <div className=' mx-auto mt-4'>

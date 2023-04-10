@@ -8,6 +8,7 @@ import JobCategory from './components/JobCategory/JobCategory'
 import Footer from './components/Footer/Footer'
 import { Outlet } from 'react-router-dom'
 import Home from './components/Home/Home'
+import FeaturedJob from './components/FeaturedJob/FeaturedJob'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
       
       <Banner></Banner>
       <JobCategory></JobCategory>
+      <FeaturedJob></FeaturedJob>
       <Footer></Footer>
       
       
