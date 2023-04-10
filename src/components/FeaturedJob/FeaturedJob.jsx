@@ -15,7 +15,7 @@ const FeaturedJob = () => {
                  <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
 
            </div>
-           <div className='grid grid-cols-2 gap-9'>
+           <div className='grid lg:grid-cols-2 gap-9'>
                {
                 jobSample.slice(0,4).map(job => <FeauredJobCard 
                     key={job.id}

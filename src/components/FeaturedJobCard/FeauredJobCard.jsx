@@ -24,6 +24,9 @@ const FeauredJobCard = ({ job }) => {
                         <p className='text-left font-semibold text-gray-600 tracking-wide text-xl'>{salary}</p>
                     </div>
                 </div>
+                <div className='text-left'>
+                    <button className='p-3 font-bold button-style mt-5 '>View Details</button>
+                </div>
             </div>
         </div>
     );
