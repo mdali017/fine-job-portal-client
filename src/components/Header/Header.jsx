@@ -120,7 +120,7 @@ const Header = () => {
                         </svg>
                       </div>
                       <span className='ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase'>
-                        HG
+                        FJ
                       </span>
                     </Link>
                   </div>
@@ -144,23 +144,43 @@ const Header = () => {
                   <ul className='space-y-4'>
                     <li>
                       <Link
-                        to='/shop'
-                        aria-label='Shop'
-                        title='Shop'
+                        to='/'
+                        aria-label='Home'
+                        title='Home'
                         className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
                       >
-                        Shop
+                        Home
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to='/blogs'
+                        aria-label='Blogs'
+                        title='Blogs'
+                        className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
+                      >
+                        Blogs
                       </Link>
                     </li>
                    
                     <li>
                       <Link
-                        to='/about'
-                        aria-label='About Us'
-                        title='About Us'
+                        to='/appliedjob'
+                        aria-label='Applied Job'
+                        title='Applied Jobs'
                         className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
                       >
                         About Us
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to='/statistics'
+                        aria-label='Statistics'
+                        title='Statistics'
+                        className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
+                      >
+                        Statistics
                       </Link>
                     </li>
                   </ul>
