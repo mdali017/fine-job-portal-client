@@ -1,9 +1,21 @@
 import React from 'react';
 import { CurrencyDollarIcon, MapPinIcon } from '@heroicons/react/24/solid'
+import { Link, useNavigate } from 'react-router-dom';
 
 const FeauredJobCard = ({ job }) => {
-    console.log(job);
-    const { picture, postName, company, location, jobStatus, salary } = job;
+    // console.log(job);
+    const { id, picture, postName, company, location, jobStatus, salary } = job;
+
+    // const jobDetails = () =>{
+    //     // console.log('button click')
+    // }
+
+    const navi = useNavigate()
+
+    const handleNavigate = () =>{
+         navi(`/post/${id}`)
+    } 
+
     return (
         <div>
             <div className='border p-10'>
@@ -25,7 +37,7 @@ const FeauredJobCard = ({ job }) => {
                     </div>
                 </div>
                 <div className='text-left'>
-                    <button className='p-3 font-bold button-style mt-5 '>View Details</button>
+                    <Link to={`/job/${id}`}><button className='p-3 font-bold button-style mt-5 '>View Details</button></Link>
                 </div>
             </div>
         </div>

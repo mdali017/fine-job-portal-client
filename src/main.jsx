@@ -10,6 +10,7 @@ import Home from './components/Home/Home';
 import Statistics from './components/Statistics/Statistics';
 import AppliedJob from './components/AppliedJob/AppliedJob';
 import Blogs from './components/Blogs/Blogs';
+import JobDetails from './components/JobDetails/JobDetails';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,12 @@ const router = createBrowserRouter([
       {
         path: 'appliedJob',
         element: <AppliedJob></AppliedJob>
+      },
+      {
+        path: 'job',
+        element: <JobDetails></JobDetails>,
+        // loader: ({params}) => console.log(params.jobDeatlsId)
+        loader: () => fetch('fakeData.json')
       },
       {
         path: 'blogs',

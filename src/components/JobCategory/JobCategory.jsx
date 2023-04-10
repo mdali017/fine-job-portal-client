@@ -10,8 +10,8 @@ const JobCategory = () => {
         .then(data => setJobCategory(data))
     },[])
     return (
-        <div className='mt-20'>
-            <h1 className='text-4xl font-semibold mb-4'>Job Category List</h1>
+        <div className='mt-36'>
+            <h1 className='text-4xl font-extrabold mb-4  '>Job Category List</h1>
             <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
                  {
