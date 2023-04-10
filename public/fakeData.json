@@ -1,0 +1,227 @@
+[
+    {
+      "id": "64331a5034538ceca20960ca",
+      "index": 0,
+      "picture": "/src/assets/All Images/google-1-1 1.png",
+      "age": 22,
+      "eyeColor": "green",
+      "postName": "Technical Database Engineer",
+      "gender": "male",
+      "company": "Google LLC",
+      "email": "ellischavez@comcubine.com",
+      "phone": "+1 (967) 474-2316",
+      "about": "Eiusmod irure sunt Lorem enim culpa irure laboris cillum do tempor veniam nostrud laboris. Cupidatat ullamco duis sint consequat ad et nisi nulla proident Lorem aliqua laboris ullamco. Cillum in eiusmod non esse pariatur excepteur eiusmod quis elit anim officia dolor aliqua in. Cupidatat reprehenderit id culpa elit. Ipsum officia sit non enim sit est est Lorem ad quis cillum ad cillum cupidatat.\r\n",
+      "friends": [
+        { 
+          "location": "New York, America"
+        },
+        {
+          "fullLocation": "935 Mill Lane, Oneida, New York, 4143"
+        }
+      ],
+      "greeting": "Hello, Ellis Chavez! You have 9 unread messages."
+    },
+    {
+      "id": "64331a5079e7c5867591ff45",
+      "index": 1,
+      "picture": "http://placehold.it/32x32",
+      "age": 25,
+      "eyeColor": "brown",
+      "name": "Santos Lopez",
+      "gender": "male",
+      "company": "ZORROMOP",
+      "email": "santoslopez@zorromop.com",
+      "phone": "+1 (807) 480-2544",
+      "address": "715 Grafton Street, Guthrie, North Carolina, 6129",
+      "about": "Officia eu id eiusmod sint Lorem pariatur qui mollit et in duis incididunt magna. Esse magna aliquip aliqua incididunt qui. Est aliquip et deserunt qui sunt sit.\r\n",
+      "friends": [
+        {
+          "id": 0,
+          "name": "Liza Downs"
+        },
+        {
+          "id": 1,
+          "name": "Justine Ramirez"
+        },
+        {
+          "id": 2,
+          "name": "Naomi Brock"
+        }
+      ],
+      "greeting": "Hello, Santos Lopez! You have 3 unread messages."
+    },
+    {
+      "id": "64331a50d0965fc56281a8f7",
+      "index": 2,
+      "picture": "http://placehold.it/32x32",
+      "age": 40,
+      "eyeColor": "green",
+      "name": "Avis Mcintosh",
+      "gender": "female",
+      "company": "KIDSTOCK",
+      "email": "avismcintosh@kidstock.com",
+      "phone": "+1 (878) 486-3387",
+      "address": "899 Aitken Place, Bentonville, Hawaii, 8673",
+      "about": "Proident sunt aute ex magna ad velit anim labore. Magna ad excepteur magna nostrud aliquip velit dolor velit incididunt culpa. Commodo incididunt deserunt laborum sunt nulla reprehenderit nulla fugiat sunt.\r\n",
+      "friends": [
+        {
+          "id": 0,
+          "name": "Deanne Castaneda"
+        },
+        {
+          "id": 1,
+          "name": "Hickman Boyd"
+        },
+        {
+          "id": 2,
+          "name": "Richard Frederick"
+        }
+      ],
+      "greeting": "Hello, Avis Mcintosh! You have 6 unread messages."
+    },
+    {
+      "id": "64331a500677580452f83e31",
+      "index": 3,
+      "picture": "http://placehold.it/32x32",
+      "age": 27,
+      "eyeColor": "green",
+      "name": "Margaret Mann",
+      "gender": "female",
+      "company": "SUSTENZA",
+      "email": "margaretmann@sustenza.com",
+      "phone": "+1 (951) 515-3923",
+      "address": "413 Windsor Place, Klondike, Utah, 8764",
+      "about": "Lorem enim ullamco anim fugiat enim tempor mollit mollit adipisicing exercitation pariatur elit ullamco. Cupidatat culpa aute ea pariatur reprehenderit in officia nisi dolor velit dolor. Elit adipisicing exercitation sit fugiat pariatur commodo. Aute incididunt labore culpa consectetur mollit.\r\n",
+      "friends": [
+        {
+          "id": 0,
+          "name": "Salazar Peck"
+        },
+        {
+          "id": 1,
+          "name": "Mathews Fry"
+        },
+        {
+          "id": 2,
+          "name": "Fox Boone"
+        }
+      ],
+      "greeting": "Hello, Margaret Mann! You have 3 unread messages."
+    },
+    {
+      "id": "64331a50e811c0194248a648",
+      "index": 4,
+      "picture": "http://placehold.it/32x32",
+      "age": 26,
+      "eyeColor": "brown",
+      "name": "Molly Strickland",
+      "gender": "female",
+      "company": "APPLICA",
+      "email": "mollystrickland@applica.com",
+      "phone": "+1 (901) 414-3107",
+      "address": "773 Pulaski Street, Glenville, Illinois, 1649",
+      "about": "Aute do non ipsum eu id irure. Reprehenderit duis anim dolor deserunt. Aute minim adipisicing elit anim est aliqua velit voluptate. Sunt deserunt aute amet eiusmod tempor in laboris culpa cillum qui mollit deserunt. Do commodo pariatur consequat in culpa exercitation mollit consectetur qui nulla ex occaecat eiusmod proident. Velit aliquip elit sint sit quis nulla occaecat sunt ea fugiat nulla commodo.\r\n",
+      "friends": [
+        {
+          "id": 0,
+          "name": "Mallory Maddox"
+        },
+        {
+          "id": 1,
+          "name": "Knowles Mcleod"
+        },
+        {
+          "id": 2,
+          "name": "Hood Dorsey"
+        }
+      ],
+      "greeting": "Hello, Molly Strickland! You have 8 unread messages."
+    },
+    {
+      "id": "64331a500f777f969531c912",
+      "index": 5,
+      "picture": "http://placehold.it/32x32",
+      "age": 38,
+      "eyeColor": "brown",
+      "name": "Sherman Le",
+      "gender": "male",
+      "company": "MICROLUXE",
+      "email": "shermanle@microluxe.com",
+      "phone": "+1 (948) 534-3090",
+      "address": "900 Court Square, Why, California, 4667",
+      "about": "Adipisicing eiusmod non fugiat cillum deserunt velit veniam fugiat. Nulla occaecat id Lorem Lorem ea sit mollit dolor veniam. Excepteur id enim occaecat commodo velit dolor consectetur consequat exercitation aliqua. Laborum voluptate voluptate minim id.\r\n",
+      "friends": [
+        {
+          "id": 0,
+          "name": "Clare Potts"
+        },
+        {
+          "id": 1,
+          "name": "Richardson White"
+        },
+        {
+          "id": 2,
+          "name": "Ingrid Rich"
+        }
+      ],
+      "greeting": "Hello, Sherman Le! You have 1 unread messages."
+    },
+    {
+      "id": "64331a5072ba7cb31e80c22d",
+      "index": 6,
+      "picture": "http://placehold.it/32x32",
+      "age": 21,
+      "eyeColor": "brown",
+      "name": "Katheryn Lamb",
+      "gender": "female",
+      "company": "ETERNIS",
+      "email": "katherynlamb@eternis.com",
+      "phone": "+1 (881) 449-3474",
+      "address": "743 Lake Avenue, Turah, Texas, 4467",
+      "about": "Reprehenderit eiusmod irure dolore enim voluptate eu eiusmod. Cillum sit irure qui labore ullamco veniam voluptate exercitation ut. Sint laborum nostrud elit ipsum velit duis magna proident eu. Minim consequat eiusmod duis sint et fugiat consequat minim laborum minim pariatur commodo sunt excepteur. Laborum ad enim eiusmod elit quis consequat sint ad proident.\r\n",
+      "friends": [
+        {
+          "id": 0,
+          "name": "Aurelia Cummings"
+        },
+        {
+          "id": 1,
+          "name": "Hampton Joyce"
+        },
+        {
+          "id": 2,
+          "name": "Carrillo Carney"
+        }
+      ],
+      "greeting": "Hello, Katheryn Lamb! You have 4 unread messages."
+    },
+    {
+      "id": "64331a503bd18cf2b9078613",
+      "index": 7,
+      "picture": "http://placehold.it/32x32",
+      "age": 24,
+      "eyeColor": "green",
+      "name": "Darcy Brown",
+      "gender": "female",
+      "company": "ORONOKO",
+      "email": "darcybrown@oronoko.com",
+      "phone": "+1 (909) 590-2074",
+      "address": "314 Hopkins Street, Volta, Guam, 4678",
+      "about": "Minim culpa eu labore ex labore amet excepteur quis dolor dolor sint laboris. Pariatur exercitation aute ea sunt aliqua eiusmod sint deserunt in deserunt. Laborum voluptate minim duis laborum consectetur velit consectetur aliquip duis veniam do. Aliqua esse cillum officia occaecat proident aliqua officia velit laboris esse aliqua amet tempor. Cillum proident ad commodo quis quis occaecat Lorem dolor eu culpa excepteur sunt nisi. Elit exercitation tempor occaecat aliqua culpa. Nulla nostrud dolore non Lorem ipsum sint nostrud consequat nostrud.\r\n",
+      "friends": [
+        {
+          "id": 0,
+          "name": "Forbes Case"
+        },
+        {
+          "id": 1,
+          "name": "Karina Schultz"
+        },
+        {
+          "id": 2,
+          "name": "Florence Dejesus"
+        }
+      ],
+      "greeting": "Hello, Darcy Brown! You have 8 unread messages."
+    }
+  ]
