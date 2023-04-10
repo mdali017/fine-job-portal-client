@@ -6,16 +6,20 @@ import Banner from './components/Banner/Banner'
 import Header from './components/Header/Header'
 import JobCategory from './components/JobCategory/JobCategory'
 import Footer from './components/Footer/Footer'
+import { Outlet } from 'react-router-dom'
+import Home from './components/Home/Home'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-      <Header></Header>
+      
+      
       <Banner></Banner>
       <JobCategory></JobCategory>
       <Footer></Footer>
+      
       
     </div>
   )
