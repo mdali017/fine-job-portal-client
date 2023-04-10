@@ -11,7 +11,7 @@
       "email": "ellischavez@comcubine.com",
       "phone": "+1 (967) 474-2316",
       "about": "Eiusmod irure sunt Lorem enim culpa irure laboris cillum do tempor veniam nostrud laboris. Cupidatat ullamco duis sint consequat ad et nisi nulla proident Lorem aliqua laboris ullamco. Cillum in eiusmod non esse pariatur excepteur eiusmod quis elit anim officia dolor aliqua in. Cupidatat reprehenderit id culpa elit. Ipsum officia sit non enim sit est est Lorem ad quis cillum ad cillum cupidatat.\r\n",
-      "friends": [
+      "location": [
         { 
           "location": "New York, America"
         },
@@ -24,7 +24,7 @@
     {
       "id": "64331a5079e7c5867591ff45",
       "index": 1,
-      "picture": "http://placehold.it/32x32",
+      "picture": "/src/assets/All Images/netflix-4 1.png",
       "age": 25,
       "eyeColor": "brown",
       "name": "Santos Lopez",
@@ -53,7 +53,7 @@
     {
       "id": "64331a50d0965fc56281a8f7",
       "index": 2,
-      "picture": "http://placehold.it/32x32",
+      "picture": "/src/assets/All Images/tesla-9 1.png",
       "age": 40,
       "eyeColor": "green",
       "name": "Avis Mcintosh",
@@ -82,7 +82,7 @@
     {
       "id": "64331a500677580452f83e31",
       "index": 3,
-      "picture": "http://placehold.it/32x32",
+      "picture": "/src/assets/All Images/Group 10021.png",
       "age": 27,
       "eyeColor": "green",
       "name": "Margaret Mann",
@@ -111,7 +111,7 @@
     {
       "id": "64331a50e811c0194248a648",
       "index": 4,
-      "picture": "http://placehold.it/32x32",
+      "picture": "/src/assets/All Images/facebook.png",
       "age": 26,
       "eyeColor": "brown",
       "name": "Molly Strickland",
@@ -140,7 +140,7 @@
     {
       "id": "64331a500f777f969531c912",
       "index": 5,
-      "picture": "http://placehold.it/32x32",
+      "picture": "/src/assets/All Images/youtube.png",
       "age": 38,
       "eyeColor": "brown",
       "name": "Sherman Le",
@@ -169,7 +169,7 @@
     {
       "id": "64331a5072ba7cb31e80c22d",
       "index": 6,
-      "picture": "http://placehold.it/32x32",
+      "picture": "/src/assets/All Images/twitter.png",
       "age": 21,
       "eyeColor": "brown",
       "name": "Katheryn Lamb",
@@ -198,7 +198,7 @@
     {
       "id": "64331a503bd18cf2b9078613",
       "index": 7,
-      "picture": "http://placehold.it/32x32",
+      "picture": "/src/assets/All Images/apple.png",
       "age": 24,
       "eyeColor": "green",
       "name": "Darcy Brown",
