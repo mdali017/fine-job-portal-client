@@ -11,11 +11,14 @@ import Statistics from './components/Statistics/Statistics';
 import AppliedJob from './components/AppliedJob/AppliedJob';
 import Blogs from './components/Blogs/Blogs';
 import JobDetails from './components/JobDetails/JobDetails';
+import JobMD from './components/AppliedJob/JobMD';
+import ErrorPage from './components/ErrorPage/ErrorPage';
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Home></Home>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: '/',
@@ -27,13 +30,19 @@ const router = createBrowserRouter([
       },
       {
         path: 'appliedJob',
-        element: <AppliedJob></AppliedJob>
+        element: <AppliedJob></AppliedJob>,
+        loader: () => fetch('/fakeData.json')
       },
+      // {
+      //   path: 'job/:jobmdId',
+      //   element: <JobMD></JobMD>,
+      //   loader: (params) => fetch(`/fakeData.json`)
+      // },
       {
-        path: 'job',
+        path: 'job/2',
         element: <JobDetails></JobDetails>,
         // loader: ({params}) => console.log(params.jobDeatlsId)
-        loader: () => fetch('fakeData.json')
+        // loader: ({params}) => fetch('/fakeData.json')
       },
       {
         path: 'blogs',

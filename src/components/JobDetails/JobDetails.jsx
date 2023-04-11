@@ -6,18 +6,17 @@ const JobDetails = () => {
     // console.log(salary)
     // const jobDetails = useLoaderData()
 
+    // const allD = useLoaderData()
+
     const [details, setDetails] = useState([])
     console.log(details)
     useEffect(() =>{
-        fetch('fakeData.json')
+        fetch('/fakeData.json')
         .then(res => res.json())
         .then(data => setDetails(data))
     },[])
     
-  let a = 12;
-  let b = 12;
-  let result = a + b;
-  console.log(result)
+
 
     return (
         <div className=''>
