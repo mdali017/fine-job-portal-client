@@ -7,7 +7,7 @@ const FeaturedJob = () => {
      useEffect(() =>{
         fetch('fakeData.json')
         .then(res => res.json())
-        .then(data => setJobSample(data.slice(0,4)))
+        .then(data => setJobSample(data))
      }, [])
      useEffect(() =>{
         fetch('fakeData.json')
@@ -18,6 +18,14 @@ const FeaturedJob = () => {
      const showMoreButton = () =>{
         
      }
+
+     if(jobSample.length >4){
+        jobSample.slice(0, 4)
+    }else{
+        showMoreButton(jobSample)
+    }
+
+     
 
     return (
         <div>
@@ -43,16 +51,19 @@ const FeaturedJob = () => {
                     )
                 })
                }
+               <button onClick={() => showMoreButton(jobSample)} className='p-3 font-bold button-style mt-24 '>Show More</button>
            </div>
-           {/* <div className='grid lg:grid-cols-2 gap-9'>
-               {
+           
+           <div className='grid lg:grid-cols-2 gap-9'>
+               {/* {
                 jobSampleTwo.map(job => <FeauredJobCard 
                     key={job.id}
                     job={job}
                     showMore={showMoreButton}
                     ></FeauredJobCard>)
                }
-           </div> */}
+                */}
+           </div>
            
         </div>
     );

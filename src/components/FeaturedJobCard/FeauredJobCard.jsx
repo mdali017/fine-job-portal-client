@@ -45,7 +45,7 @@ const FeauredJobCard = ({ job }) => {
                     <Link to={id}><button className='p-3 font-bold button-style mt-5 '>View Details</button></Link>
                 </div>
             </div>
-            <button onClick={() => showMoreButton()} className='p-3 font-bold button-style mt-24 '>Show More</button>
+            
         </div>
     );
 };
