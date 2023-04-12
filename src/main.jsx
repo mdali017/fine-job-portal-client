@@ -13,6 +13,7 @@ import Blogs from './components/Blogs/Blogs';
 import JobDetails from './components/JobDetails/JobDetails';
 import JobMD from './components/AppliedJob/JobMD';
 import ErrorPage from './components/ErrorPage/ErrorPage';
+import storeProductLoader from './stroagedApplyJobLoader/StoreJob';
 
 const router = createBrowserRouter([
   {
@@ -31,7 +32,8 @@ const router = createBrowserRouter([
       {
         path: 'appliedJob',
         element: <AppliedJob></AppliedJob>,
-        loader: () => fetch('/fakeData.json')
+        // loader: () => fetch('/fakeData.json')
+        loader: storeProductLoader
       },
       // {
       //   path: 'job/:jobmdId',

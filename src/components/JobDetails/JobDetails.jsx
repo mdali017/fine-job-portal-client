@@ -12,7 +12,7 @@ const JobDetails = () => {
 
     const [details, setDetails] = useState([])
     // const [targetData, setTargetData] = useState([])
-    console.log(details)
+    // console.log(details)
     const { jobDescription, jobResponsibility, EducationalRequirements, Experiences, postName, phone, email, location, salary } = details
     // useEffect(() =>{
     //     fetch('/fakeData.json')
@@ -35,7 +35,7 @@ const JobDetails = () => {
     // },[details])
 
     const handleApplyButton = (id) =>{
-        console.log("clicked")
+        // console.log("clicked")
         addToDb(id)
     }
 
