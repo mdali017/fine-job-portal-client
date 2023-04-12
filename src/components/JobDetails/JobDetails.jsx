@@ -44,7 +44,7 @@ const JobDetails = () => {
     return (
         <div className=''>
             <div className='border bg-indigo-300 h-80 mb-24'>
-                <h1 className='mt-40 text-3xl  font-extrabold tracking-wide'>Job Details</h1>
+                <h1 className='mt-40 text-3xl  font-extrabold tracking-wide'>More Details About Job </h1>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2'>
                 <div className='text-left'>

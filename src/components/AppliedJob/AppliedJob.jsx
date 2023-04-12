@@ -12,7 +12,7 @@ const AppliedJob = () => {
     return (
         <div>
              <div className='border bg-indigo-300 h-80 mb-24'>
-                <h1 className='mt-40 text-3xl  font-extrabold tracking-wide'>Applied Job</h1>
+                <h1 className='mt-40 text-3xl  font-extrabold tracking-wide'>You Applied Job</h1>
             </div>
             <div>
                 <h1>Total Apply: {jobId.length}</h1>
