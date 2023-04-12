@@ -3,14 +3,20 @@ import FeauredJobCard from '../FeaturedJobCard/FeauredJobCard';
 
 const FeaturedJob = () => {
     const [jobSample, setJobSample] = useState([]);
+    const [jobSampleTwo, setJobSampleTwo] = useState([]);
      useEffect(() =>{
         fetch('fakeData.json')
         .then(res => res.json())
-        .then(data => setJobSample(data))
+        .then(data => setJobSample(data.slice(0,4)))
+     }, [])
+     useEffect(() =>{
+        fetch('fakeData.json')
+        .then(res => res.json())
+        .then(data => setJobSampleTwo(data))
      }, [])
 
      const showMoreButton = () =>{
-        console.log("button click");
+        
      }
 
     return (
@@ -21,14 +27,33 @@ const FeaturedJob = () => {
 
            </div>
            <div className='grid lg:grid-cols-2 gap-9'>
-               {
+               {/* {
                 jobSample.map(job => <FeauredJobCard 
                     key={job.id}
                     job={job}
                     ></FeauredJobCard>)
+               } */}
+               {
+                jobSample.map(job => {
+                    return(
+                        <FeauredJobCard 
+                    key={job.id}
+                    job={job}
+                    ></FeauredJobCard>
+                    )
+                })
                }
            </div>
-           <button onClick={() => showMoreButton()} className='p-3 font-bold button-style mt-24 '>Show More</button>
+           {/* <div className='grid lg:grid-cols-2 gap-9'>
+               {
+                jobSampleTwo.map(job => <FeauredJobCard 
+                    key={job.id}
+                    job={job}
+                    showMore={showMoreButton}
+                    ></FeauredJobCard>)
+               }
+           </div> */}
+           
         </div>
     );
 };

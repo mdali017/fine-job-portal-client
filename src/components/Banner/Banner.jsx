@@ -11,7 +11,7 @@ const Banner = () => {
                     </p>
                     <button className='p-3 font-bold button-style mt-5'>Get Started </button>
                 </div>
-                <img className='  md:h-full md:w-auto md:mt-6' src="/src/assets/All Images/P3OLGJ1 copy 1.png" alt="" />
+                <img className=' md:h-full md:w-auto md:mt-6' src="https://img.freepik.com/free-photo/portrait-happy-young-man-eyeglasses_171337-4850.jpg?size=626&ext=jpg&ga=GA1.2.413823493.1681237387&semt=ais" alt="" />
             </div>
         </div>
     );

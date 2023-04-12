@@ -2,31 +2,33 @@
     {
       "id": "64331a5034538ceca20960ca",
       "index": 0,
-      "picture": "/src/assets/All Images/google-1-1 1.png",
+      "picture": "./src/assets/All Images/google-1-1 1.png",
       "jobStatus": ["Remote", "Full Time"],
       "salary": "100k-130k",
       "postName": "Technical Database Engineer",
-      "gender": "male",
+      "Experiences": "2-3 Year Experience of this field",
       "company": "Google LLC",
       "email": "ellischavez@comcubine.com",
       "phone": "+1 (967) 474-2316",
-      "about": "Eiusmod irure sunt Lorem enim culpa irure laboris cillum do tempor veniam nostrud laboris. Cupidatat ullamco duis sint consequat ad et nisi nulla proident Lorem aliqua laboris ullamco. Cillum in eiusmod non esse pariatur excepteur eiusmod quis elit anim officia dolor aliqua in. Cupidatat reprehenderit id culpa elit. Ipsum officia sit non enim sit est est Lorem ad quis cillum ad cillum cupidatat.\r\n",
+      "jobDescription": "Eiusmod irure sunt Lorem enim culpa irure laboris cillum do tempor veniam nostrud laboris. Cupidatat ullamco duis sint consequat ad et nisi nulla proident Lorem aliqua laboris ullamco. Cillum in eiusmod non esse pariatur excepteur eiusmod quis elit anim officia dolor aliqua in. Cupidatat reprehenderit id culpa elit. Ipsum officia sit non enim sit est est Lorem ad quis cillum ad cillum cupidatat.\r\n",
+      "jobResponsibility": "Sunt Lorem enim culpa irure laboris cillum do tempor veniam nostrud laboris. Cupidatat ullamco duis sint consequat ad et nisi nulla proident Lorem aliqua laboris ullamco. Cillum in eiusmod non esse pariatur excepteur eiusmod quis elit anim officia dolor aliqua in. Cupidatat reprehenderit id culpa elit. Ipsum officia sit non enim sit est est Lorem ad quis cillum ad cillum cupidatat.\r\n",
       "location": [ "New York, America", "Mill Lane, Oneida, New York" ],
-      "greeting": "Hello, Ellis Chavez! You have 9 unread messages."
+      "EducationalRequirements": " Ellis Chavez! You have 9 unread messages."
     },
     {
       "id": "64331a5079e7c5867591ff45",
       "index": 1,
-      "picture": "/src/assets/All Images/netflix-4 1.png",
+      "picture": "./src/assets/All Images/netflix-4 1.png",
       "jobStatus": ["Onsite", "Full Time"],
       "salary": "47k-90k",
       "postName": "Senior Product Designer",
-      "gender": "male",
+      "Experiences": "2-3 Year Experience of this field",
       "company": "Netflix Ltd",
       "email": "santoslopez@zorromop.com",
       "phone": "+1 (807) 480-2544",
       "location": ["Dhaka, Bangladesh", "715 Grafton Street, Guthrie, Dhaka"],
-      "about": "Officia eu id eiusmod sint Lorem pariatur qui mollit et in duis incididunt magna. Esse magna aliquip aliqua incididunt qui. Est aliquip et deserunt qui sunt sit.\r\n",
+      "jobDescription": "Officia eu id eiusmod sint Lorem pariatur qui mollit et in duis incididunt magna. Esse magna aliquip aliqua incididunt qui. Est aliquip et deserunt qui sunt sit.\r\n",
+      "jobResponsibility": "Eiusmod sint Lorem pariatur qui mollit et in duis incididunt magna. Esse magna aliquip aliqua incididunt qui. Est aliquip et deserunt qui sunt sit.\r\n",
       "friends": [
         {
           "id": 0,
@@ -41,21 +43,22 @@
           "name": "Naomi Brock"
         }
       ],
-      "greeting": "Hello, Santos Lopez! You have 3 unread messages."
+      "EducationalRequirements": " Santos Lopez! You have 3 unread messages."
     },
     {
       "id": "64331a50d0965fc56281a8f7",
       "index": 2,
-      "picture": "/src/assets/All Images/tesla-9 1.png",
+      "picture": "src/assets/All Images/tesla-9 1.png",
       "jobStatus": ["Remote", "Full Time"],
       "salary": "50k-100k",
       "postName": "Software Engineer",
-      "gender": "female",
+      "Experiences": "2-4 Year Experience of this field",
       "company": "Tesla, Inc",
       "email": "avismcintosh@kidstock.com",
       "phone": "+1 (878) 486-3387",
       "location": ["New York, America", "Aitken Place, Bentonville, Hawaii"],
-      "about": "Proident sunt aute ex magna ad velit anim labore. Magna ad excepteur magna nostrud aliquip velit dolor velit incididunt culpa. Commodo incididunt deserunt laborum sunt nulla reprehenderit nulla fugiat sunt.\r\n",
+      "jobDescription": "Proident sunt aute ex magna ad velit anim labore. Magna ad excepteur magna nostrud aliquip velit dolor velit incididunt culpa. Commodo incididunt deserunt laborum sunt nulla reprehenderit nulla fugiat sunt.\r\n",
+      "jobResponsibility": "Sunt aute ex magna ad velit anim labore. Magna ad excepteur magna nostrud aliquip velit dolor velit incididunt culpa. Commodo incididunt deserunt laborum sunt nulla reprehenderit nulla fugiat sunt.\r\n",
       "friends": [
         {
           "id": 0,
@@ -70,7 +73,7 @@
           "name": "Richard Frederick"
         }
       ],
-      "greeting": "Hello, Avis Mcintosh! You have 6 unread messages."
+      "EducationalRequirements": " Avis Mcintosh! You have 6 unread messages."
     },
     {
       "id": "64331a500677580452f83e31",
@@ -79,12 +82,13 @@
       "jobStatus": ["Onsite", "Full Time"],
       "salary": "30k-60k",
       "postName": "Motion Graphic Designer",
-      "gender": "female",
+      "Experiences": "2-4 Year Experience of this field",
       "company": "Airnod, Tc",
       "email": "margaretmann@sustenza.com",
       "phone": "+1 (951) 515-3923",
       "location": ["New York, America", "Windsor Place, Klondike, Utah"],
-      "about": "Lorem enim ullamco anim fugiat enim tempor mollit mollit adipisicing exercitation pariatur elit ullamco. Cupidatat culpa aute ea pariatur reprehenderit in officia nisi dolor velit dolor. Elit adipisicing exercitation sit fugiat pariatur commodo. Aute incididunt labore culpa consectetur mollit.\r\n",
+      "jobDescription": "Lorem enim ullamco anim fugiat enim tempor mollit mollit adipisicing exercitation pariatur elit ullamco. Cupidatat culpa aute ea pariatur reprehenderit in officia nisi dolor velit dolor. Elit adipisicing exercitation sit fugiat pariatur commodo. Aute incididunt labore culpa consectetur mollit.\r\n",
+      "jobResponsibility": "Ullamco anim fugiat enim tempor mollit mollit adipisicing exercitation pariatur elit ullamco. Cupidatat culpa aute ea pariatur reprehenderit in officia nisi dolor velit dolor. Elit adipisicing exercitation sit fugiat pariatur commodo. Aute incididunt labore culpa consectetur mollit.\r\n",
       "friends": [
         {
           "id": 0,
@@ -99,7 +103,7 @@
           "name": "Fox Boone"
         }
       ],
-      "greeting": "Hello, Margaret Mann! You have 3 unread messages."
+      "EducationalRequirements": " Margaret Mann! You have 3 unread messages."
     },
     {
       "id": "64331a50e811c0194248a648",
@@ -108,12 +112,13 @@
       "jobStatus": ["Onsite", "Full Time"],
       "salary": "90k-150k",
       "postName": "Software Engineer",
-      "gender": "female",
+      "Experiences": "2-4 Year Experience of this field",
       "company": "Meta Platforms, Inc.",
       "email": "mollystrickland@applica.com",
       "phone": "+1 (901) 414-3107",
       "location": ["New York, America", "Pulaski Street, Glenville, Illinois"],
-      "about": "Aute do non ipsum eu id irure. Reprehenderit duis anim dolor deserunt. Aute minim adipisicing elit anim est aliqua velit voluptate. Sunt deserunt aute amet eiusmod tempor in laboris culpa cillum qui mollit deserunt. Do commodo pariatur consequat in culpa exercitation mollit consectetur qui nulla ex occaecat eiusmod proident. Velit aliquip elit sint sit quis nulla occaecat sunt ea fugiat nulla commodo.\r\n",
+      "jobDescription": "Aute do non ipsum eu id irure. Reprehenderit duis anim dolor deserunt. Aute minim adipisicing elit anim est aliqua velit voluptate. Sunt deserunt aute amet eiusmod tempor in laboris culpa cillum qui mollit deserunt. Do commodo pariatur consequat in culpa exercitation mollit consectetur qui nulla ex occaecat eiusmod proident. Velit aliquip elit sint sit quis nulla occaecat sunt ea fugiat nulla commodo.\r\n",
+      "jobResponsibility": "Do non ipsum eu id irure. Reprehenderit duis anim dolor deserunt. Aute minim adipisicing elit anim est aliqua velit voluptate. Sunt deserunt aute amet eiusmod tempor in laboris culpa cillum qui mollit deserunt. Do commodo pariatur consequat in culpa exercitation mollit consectetur qui nulla ex occaecat eiusmod proident. Velit aliquip elit sint sit quis nulla occaecat sunt ea fugiat nulla commodo.\r\n",
       "friends": [
         {
           "id": 0,
@@ -128,7 +133,7 @@
           "name": "Hood Dorsey"
         }
       ],
-      "greeting": "Hello, Molly Strickland! You have 8 unread messages."
+      "EducationalRequirements": " Molly Strickland! You have 8 unread messages."
     },
     {
       "id": "64331a500f777f969531c912",
@@ -137,12 +142,13 @@
       "jobStatus": ["Remote", "Full Time"],
       "salary": "110k-160k",
       "postName": "Sherman Le",
-      "gender": "male",
+      "Experiences": "2-3 Year Experience of this field",
       "company": "Youtube Inc",
       "email": "shermanle@microluxe.com",
       "phone": "+1 (948) 534-3090",
       "location": ["New York, America", "Court Square, Why, California"],
-      "about": "Adipisicing eiusmod non fugiat cillum deserunt velit veniam fugiat. Nulla occaecat id Lorem Lorem ea sit mollit dolor veniam. Excepteur id enim occaecat commodo velit dolor consectetur consequat exercitation aliqua. Laborum voluptate voluptate minim id.\r\n",
+      "jobDescription": "Adipisicing eiusmod non fugiat cillum deserunt velit veniam fugiat. Nulla occaecat id Lorem Lorem ea sit mollit dolor veniam. Excepteur id enim occaecat commodo velit dolor consectetur consequat exercitation aliqua. Laborum voluptate voluptate minim id.\r\n",
+      "jobResponsibility": "Eiusmod non fugiat cillum deserunt velit veniam fugiat. Nulla occaecat id Lorem Lorem ea sit mollit dolor veniam. Excepteur id enim occaecat commodo velit dolor consectetur consequat exercitation aliqua. Laborum voluptate voluptate minim id.\r\n",
       "friends": [
         {
           "id": 0,
@@ -157,7 +163,7 @@
           "name": "Ingrid Rich"
         }
       ],
-      "greeting": "Hello, Sherman Le! You have 1 unread messages."
+      "EducationalRequirements": " Sherman Le! You have 1 unread messages."
     },
     {
       "id": "64331a5072ba7cb31e80c22d",
@@ -166,12 +172,13 @@
       "jobStatus": ["Remote", "Full Time"],
       "salary": "70k-90k",
       "postName": "Technical Database Engineer",
-      "gender": "female",
+      "Experiences": "2-4 Year Experience of this field",
       "company": "Twitter Inc",
       "email": "katherynlamb@eternis.com",
       "phone": "+1 (881) 449-3474",
       "location": ["New York, America", "Lake Avenue, Turah, Texas"],
-      "about": "Reprehenderit eiusmod irure dolore enim voluptate eu eiusmod. Cillum sit irure qui labore ullamco veniam voluptate exercitation ut. Sint laborum nostrud elit ipsum velit duis magna proident eu. Minim consequat eiusmod duis sint et fugiat consequat minim laborum minim pariatur commodo sunt excepteur. Laborum ad enim eiusmod elit quis consequat sint ad proident.\r\n",
+      "jobDescription": "Reprehenderit eiusmod irure dolore enim voluptate eu eiusmod. Cillum sit irure qui labore ullamco veniam voluptate exercitation ut. Sint laborum nostrud elit ipsum velit duis magna proident eu. Minim consequat eiusmod duis sint et fugiat consequat minim laborum minim pariatur commodo sunt excepteur. Laborum ad enim eiusmod elit quis consequat sint ad proident.\r\n",
+      "jobResponsibility": "Iusmod irure dolore enim voluptate eu eiusmod. Cillum sit irure qui labore ullamco veniam voluptate exercitation ut. Sint laborum nostrud elit ipsum velit duis magna proident eu. Minim consequat eiusmod duis sint et fugiat consequat minim laborum minim pariatur commodo sunt excepteur. Laborum ad enim eiusmod elit quis consequat sint ad proident.\r\n",
       "friends": [
         {
           "id": 0,
@@ -186,7 +193,7 @@
           "name": "Carrillo Carney"
         }
       ],
-      "greeting": "Hello, Katheryn Lamb! You have 4 unread messages."
+      "EducationalRequirements": " Katheryn Lamb! You have 4 unread messages."
     },
     {
       "id": "64331a503bd18cf2b9078613",
@@ -195,12 +202,13 @@
       "jobStatus": ["Remote", "Part Time"],
       "salary": "120k-140k",
       "postName": "Website Designer",
-      "gender": "female",
+      "Experiences": "2-4 Year Experience of this field",
       "company": "Apple Inc",
       "email": "darcybrown@oronoko.com",
       "phone": "+1 (909) 590-2074",
       "location": ["New York, America", "Hopkins Street, Volta, Guam"],
-      "about": "Minim culpa eu labore ex labore amet excepteur quis dolor dolor sint laboris. Pariatur exercitation aute ea sunt aliqua eiusmod sint deserunt in deserunt. Laborum voluptate minim duis laborum consectetur velit consectetur aliquip duis veniam do. Aliqua esse cillum officia occaecat proident aliqua officia velit laboris esse aliqua amet tempor. Cillum proident ad commodo quis quis occaecat Lorem dolor eu culpa excepteur sunt nisi. Elit exercitation tempor occaecat aliqua culpa. Nulla nostrud dolore non Lorem ipsum sint nostrud consequat nostrud.\r\n",
+      "jobDescription": "Minim culpa eu labore ex labore amet excepteur quis dolor dolor sint laboris. Pariatur exercitation aute ea sunt aliqua eiusmod sint deserunt in deserunt. Laborum voluptate minim duis laborum consectetur velit consectetur aliquip duis veniam do. Aliqua esse cillum officia occaecat proident aliqua officia velit laboris esse aliqua amet tempor. Cillum proident ad commodo quis quis occaecat Lorem dolor eu culpa excepteur sunt nisi. Elit exercitation tempor occaecat aliqua culpa. Nulla nostrud dolore non Lorem ipsum sint nostrud consequat nostrud.\r\n",
+      "jobResponsibility": "Culpa eu labore ex labore amet excepteur quis dolor dolor sint laboris. Pariatur exercitation aute ea sunt aliqua eiusmod sint deserunt in deserunt. Laborum voluptate minim duis laborum consectetur velit consectetur aliquip duis veniam do. Aliqua esse cillum officia occaecat proident aliqua officia velit laboris esse aliqua amet tempor. Cillum proident ad commodo quis quis occaecat Lorem dolor eu culpa excepteur sunt nisi. Elit exercitation tempor occaecat aliqua culpa. Nulla nostrud dolore non Lorem ipsum sint nostrud consequat nostrud.\r\n",
       "friends": [
         {
           "id": 0,
@@ -215,6 +223,6 @@
           "name": "Florence Dejesus"
         }
       ],
-      "greeting": "Hello, Darcy Brown! You have 8 unread messages."
+      "EducationalRequirements": " Darcy Brown! You have 8 unread messages."
     }
   ]

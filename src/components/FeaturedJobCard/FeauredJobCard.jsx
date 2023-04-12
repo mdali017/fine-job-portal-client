@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { CurrencyDollarIcon, MapPinIcon } from '@heroicons/react/24/solid'
 import { Link, useNavigate } from 'react-router-dom';
 
 const FeauredJobCard = ({ job }) => {
+    const [sobData, setSobData] = useState([])
     // console.log(job);
     const { id, picture, postName, company, location, jobStatus, salary } = job;
 
@@ -15,6 +16,10 @@ const FeauredJobCard = ({ job }) => {
     const handleNavigate = () =>{
          navi(`/post/${id}`)
     } 
+
+    
+   
+    // console.log(sobData)
 
     return (
         <div>
@@ -37,9 +42,10 @@ const FeauredJobCard = ({ job }) => {
                     </div>
                 </div>
                 <div className='text-left'>
-                    <Link to={`/job/${id}`}><button className='p-3 font-bold button-style mt-5 '>View Details</button></Link>
+                    <Link to={id}><button className='p-3 font-bold button-style mt-5 '>View Details</button></Link>
                 </div>
             </div>
+            <button onClick={() => showMoreButton()} className='p-3 font-bold button-style mt-24 '>Show More</button>
         </div>
     );
 };

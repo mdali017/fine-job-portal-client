@@ -38,8 +38,12 @@ const router = createBrowserRouter([
       //   element: <JobMD></JobMD>,
       //   loader: (params) => fetch(`/fakeData.json`)
       // },
+      // {
+      //    path: '/home',
+      //    element: <Home></Home>
+      // },
       {
-        path: 'job/2',
+        path: '/:id',
         element: <JobDetails></JobDetails>,
         // loader: ({params}) => console.log(params.jobDeatlsId)
         // loader: ({params}) => fetch('/fakeData.json')
