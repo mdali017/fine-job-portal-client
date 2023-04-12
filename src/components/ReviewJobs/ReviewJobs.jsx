@@ -1,9 +1,16 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const ReviewJobs = ({RJ}) => {
     console.log(RJ)
-    const {picture, postName, company, jobStatus, location, salary} = RJ
+    const {id, picture, postName, company, jobStatus, location, salary} = RJ
+
+    const navi = useNavigate()
+
+    const handleNavigate = () =>{
+         navi(`/post/${id}`)
+    } 
+
     return (
         <div>
            
@@ -27,7 +34,7 @@ const ReviewJobs = ({RJ}) => {
                     </div>
                 </div>
                 <div className='text-right'>
-                    <Link ><button className='p-3 font-bold button-style mt-5 '>View Details</button></Link>
+                    <Link to={id}><button className='p-3 font-bold button-style mt-5 '>View Details</button></Link>
                 </div>
             </div>
             </div>

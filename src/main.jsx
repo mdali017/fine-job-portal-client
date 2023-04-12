@@ -35,6 +35,10 @@ const router = createBrowserRouter([
         // loader: () => fetch('/fakeData.json')
         loader: storeProductLoader
       },
+      {
+        path: 'appliedJob/:id',
+        element: <JobDetails></JobDetails>
+      },
       // {
       //   path: 'job/:jobmdId',
       //   element: <JobMD></JobMD>,
