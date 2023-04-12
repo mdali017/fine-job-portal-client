@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import Footer from '../Footer/Footer';
+import { addToDb } from '../../utilities/fakedb';
 
 const JobDetails = () => {
     const { id } = useParams();
@@ -33,7 +34,10 @@ const JobDetails = () => {
     //     console.log(targetData.salary)
     // },[details])
 
-
+    const handleApplyButton = (id) =>{
+        console.log("clicked")
+        addToDb(id)
+    }
 
 
 
@@ -59,7 +63,9 @@ const JobDetails = () => {
                         <p><span className='text-lg font-semibold '>Email:</span> {email}</p>
                         <p><span className='text-lg font-semibold '>Address:</span> {location}</p>
                     </div>
+                    <button onClick={() => handleApplyButton(id)} className='p-3 font-bold button-style mt-5'>Apply Now </button>
                 </div>
+                
             </div>
             <Footer></Footer>
         </div>
